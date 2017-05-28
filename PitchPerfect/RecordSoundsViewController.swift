@@ -25,11 +25,6 @@ class RecordSoundsViewController: UIViewController {
         stopRecordingButton.isEnabled = false
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     @IBAction func recordAudio(_ sender: Any) {
         print("Record button was pressed")
         recordingLabel.text = "Recording in Progress"
