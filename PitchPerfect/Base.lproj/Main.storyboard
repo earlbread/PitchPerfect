@@ -23,20 +23,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XS5-SO-VRQ">
-                                <rect key="frame" x="110" y="256" width="155" height="155"/>
+                                <rect key="frame" x="137.5" y="283.5" width="100" height="100"/>
                                 <state key="normal" image="Record"/>
                                 <connections>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fn0-Mi-yrF"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7p7-zy-wDA">
-                                <rect key="frame" x="134" y="419" width="107" height="21"/>
+                                <rect key="frame" x="134" y="391.5" width="107" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gNh-af-X0Q">
-                                <rect key="frame" x="110" y="448" width="155" height="155"/>
+                                <rect key="frame" x="162" y="564" width="50" height="50"/>
                                 <state key="normal" image="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oub-fK-3w9"/>
@@ -46,7 +46,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XS5-SO-VRQ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1GO-G1-yjE"/>
-                            <constraint firstItem="gNh-af-X0Q" firstAttribute="top" secondItem="7p7-zy-wDA" secondAttribute="bottom" constant="8" id="FiS-zM-72n"/>
+                            <constraint firstItem="gNh-af-X0Q" firstAttribute="top" secondItem="7p7-zy-wDA" secondAttribute="bottom" constant="151.5" id="FiS-zM-72n"/>
                             <constraint firstItem="gNh-af-X0Q" firstAttribute="centerX" secondItem="7p7-zy-wDA" secondAttribute="centerX" id="PzI-tU-9aY"/>
                             <constraint firstItem="7p7-zy-wDA" firstAttribute="centerX" secondItem="XS5-SO-VRQ" secondAttribute="centerX" id="Xk3-Q9-TLC"/>
                             <constraint firstItem="XS5-SO-VRQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jBc-g9-mv9"/>
@@ -194,13 +194,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Echo" width="90" height="90"/>
-        <image name="Fast" width="90" height="90"/>
-        <image name="HighPitch" width="90" height="90"/>
-        <image name="LowPitch" width="90" height="90"/>
-        <image name="Record" width="155" height="155"/>
-        <image name="Reverb" width="90" height="90"/>
-        <image name="Slow" width="90" height="90"/>
-        <image name="Stop" width="155" height="155"/>
+        <image name="Echo" width="100" height="100"/>
+        <image name="Fast" width="100" height="100"/>
+        <image name="HighPitch" width="100" height="100"/>
+        <image name="LowPitch" width="100" height="100"/>
+        <image name="Record" width="100" height="100"/>
+        <image name="Reverb" width="100" height="100"/>
+        <image name="Slow" width="100" height="100"/>
+        <image name="Stop" width="50" height="50"/>
     </resources>
 </document>
